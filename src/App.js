@@ -8,6 +8,7 @@ import React from 'react';
 import LearnBtn from './components/LearnBtn';
 import Testimonial from './components/Testimonial';
 import Visit from './components/visit';
+import Footer from './components/footer';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Storey />
       <Testimonial/>
       <Visit/>
+      <Footer/>
     </div>
   );
 }
