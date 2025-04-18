@@ -1,0 +1,116 @@
+.footer_banner {
+    background-image: url(../assets/footer_banner.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .footer_content1 {
+    color: #ffffff;
+    width: 45%;
+    padding: 6rem 0;
+  }
+  
+  .footer_content1_top h2{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+    font-family: inria serif;
+  
+  }
+  
+  .footer_content1_top a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer_content1_top p {
+    width: 75%;
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 33px;
+    padding-bottom: 2.5rem;
+  }
+  
+  .footer_content1_bottom {
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .footer_bottom_left h5 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 1rem;
+  }
+  
+  .footer_bottom_left li {
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 33px;
+  }
+  
+  .footer_bottom_left li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .footer_bottom_right h5 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 1rem;
+  }
+  
+  .footer_bottom_right li {
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 33px;
+  }
+  
+  .icons {
+    padding-top: 1.5rem;
+  }
+  
+  .icons i {
+    font-size: 2rem;
+    padding-right: 3rem;
+  }
+  
+  .icons  a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .footer_content2 {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5rem 0;
+    font-weight: 300;
+  }
+  
+  .footer_content2_left {
+    width: 50%;
+  }
+  
+  .footer_content2_left p span, a {
+    text-decoration: underline;
+    color: #ffffff;
+  }
+  
+  .footer_content2_right {
+    width: 47%;
+  }
+  
+  .footer_content2_right ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .footer_content2_right ul li a{
+    text-decoration: none;
+    color: #ffffff;
+  }
