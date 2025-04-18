@@ -1,0 +1,43 @@
+.our_story {
+    margin: 5rem 0;
+  }
+  
+  .our_story_content {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .our_Story_text {
+    width: 50%;
+    text-align: justify;
+  }
+  
+  .our_Story_text h2 {
+    font-size: 50px;
+    padding-bottom: 1.5rem;
+  }
+  
+  .our_Story_text h2 span {
+    color: #ff813e;
+  }
+  
+  .our_Story_text p {
+    line-height: 23px;
+  }
+  
+  .our_story_para {
+    padding-bottom: 1.5rem;
+  }
+  
+  .our_story_image {
+    width: 50%;
+    border-radius: 15px;
+  }
+  
+  .our_story_image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }

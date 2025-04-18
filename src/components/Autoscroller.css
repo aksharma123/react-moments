@@ -1,0 +1,46 @@
+.auto_carousel_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ebebeb;
+    min-width: 100vw;
+    padding: 0.5rem 0;
+  }
+  
+  .auto_carousel_logo {
+    color: #474747;
+    font-size: 50px;
+    padding: 0 1rem;
+  }
+  
+  .auto_carousel_text {
+    color: #000000;
+    font-size: 55px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    /* -webkit-text-stroke: 1px #474747; */
+    padding: 0 50px;
+  }
+  
+  .auto_carousel {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #ebebeb;
+  }
+  
+  .auto_carousel_wrapper {
+    display: flex;
+    gap: 0px;
+    width: max-content;
+    animation: autoScroll 60s linear infinite;
+  }
+  
+  @keyframes autoScroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }

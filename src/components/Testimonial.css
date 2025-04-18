@@ -1,0 +1,125 @@
+.testimonials_section {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .testimonials_content{
+    overflow: hidden;
+  }
+  
+  .testi_cards {
+    display: flex;
+    gap: 40px;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    width: 100vw;
+  }
+  
+  .testi_card {
+    position: relative;
+    padding: 2rem;
+    /* flex: 0 0 auto; */
+    transition: transform 0.3s ease;
+  }
+  
+  .testi_card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .testi_image.up {
+    position: absolute;
+    width: 42%;
+    left: -10%;
+    top: -8%;
+    padding: 1.5rem;
+    background-color: #ffffff;
+  }
+  
+  .testi_image.down {
+    position: absolute;
+    width: 42%;
+    right: -10%;
+    bottom: -10%;
+    padding: 1.5rem;
+    background-color: #ffffff;
+  }
+  
+  .testi_image.up img {
+    width: 100%;
+  }
+  
+  .testi_image.down img {
+    transform: rotate(180deg);
+    width: 100%;
+  }
+  
+  .testi_content {
+    border: 5px solid #ff813e;
+    border-radius: 45px;
+    padding: 1rem;
+  }
+  
+  .testi_reviewer img {
+    width: 30%;
+    padding: 0.5rem 0;
+  }
+  
+  .testi_name {
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .testi_para {
+    font-size: 0.9rem;
+    line-height: 20px;
+    padding-bottom: 0.5rem;
+    width: 250px;
+  }
+  
+  .testi_slider {
+    display: flex;
+    gap: 10px;
+    width: max-content;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    animation: autoScroll 20s linear infinite;
+  }
+  
+  .testi_slider::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .testimonials_section:hover .testi_slider {
+    animation-play-state: paused;
+  }
+  
+  
+  @keyframes autoScroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .demo_text {
+    text-align: center;
+    line-height: 33px;
+  }
+  
+  .demo_text p {
+    padding-bottom: 1.5rem;
+  }
+  
+  .demo_text h3 {
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+  }
+  
+  .demo_text h3 span {
+    color: #ff813e;
+  }

@@ -1,0 +1,40 @@
+
+  .container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #000;
+    overflow-y: scroll;       /* Keep scrolling */
+    scrollbar-width: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .App {
+    overflow-x: hidden;
+    
+  }
+
+  .App::-webkit-scrollbar {
+    display: none;
+    }
+

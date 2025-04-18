@@ -1,0 +1,92 @@
+.visit_section {
+    margin: 6rem 0;
+  }
+  
+  .visit_content {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .visit_image {
+    width: 55%;
+    display: flex;
+  }
+  
+  .visit_image1 {
+    padding-bottom: 2rem;
+    width: 53%;
+  }
+  
+  .visit_image2 {
+    padding-top: 2rem;
+    width: 50%;
+    margin-left: 0.7rem;
+  }
+  
+  .visit_image img {
+    width: 100%;
+    padding-bottom: 0.7rem;
+  }
+  
+  .visit_form {
+    background-image: url(../assets/visit_schedule.png);
+    width: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 3rem;
+  }
+  
+  .visit_form h4 {
+    color: #ffffff;
+    font-size: 50px;
+    padding-bottom: 2.5rem;
+    font-family: inter;
+    font-weight: 500;
+  }
+  
+  .visit_form p {
+    color: #ffffff;
+    padding-bottom: 2.5rem;
+    line-height: 28px;
+  }
+  
+  .visit_form form input {
+    background: none;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid#ffffff;
+    padding: 5px 0;
+    margin: 14px 0;
+  }
+  
+  .visit_form form input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid#ffffff;
+  
+  }
+  
+  .visit_form form input::placeholder {
+    color: #ffffff;
+    font-size: 1.2rem;
+  }
+  
+  .visit_image1 img:nth-child(2) {
+    padding-bottom: 0;
+  }
+  
+  .visit_image2 img:nth-child(2) {
+    padding-bottom: 0;
+  }
+  
+  .learn_more_btn{
+    margin-top: 6rem;
+  }

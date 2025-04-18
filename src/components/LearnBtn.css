@@ -1,0 +1,23 @@
+.learn_more_btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-bottom: #000000 1.3px solid;
+    border-image: linear-gradient(to right, transparent, #000000, transparent) 1;
+  }
+  
+  .learn_more_btn a {
+    text-decoration: none;
+    position: absolute;
+    color: #ffffff;
+    background-color: #0c0c0c;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    
+  }
+
+
