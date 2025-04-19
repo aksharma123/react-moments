@@ -29,7 +29,7 @@ const Footer = () => {
                             <div class="footer_bottom_right">
                                 <h5>Contact Info</h5>
                                 <ul>
-                                    <li>P : 08 6364 0551</li>
+                                    <li>P : 08 6364 4564</li>
                                     <li>E : <a href="mailto:momentsconst@gmail.com">momentsconst@gmail.com</a></li>
                                     <li>A : 123 Main Street, Anytown, USA, 12345</li>
                                 </ul>
