@@ -7,12 +7,12 @@ import gallery2 from '../assets/gallery2.png';
 import gallery3 from '../assets/gallery3.png';
 
 const SingleDouble = () => {
-    const [activeStorey, setActiveStorey] = useState('single'); // "single" or "double"
-    const [activeImage, setActiveImage] = useState('first_s1'); // which image to show
+    const [activeStorey, setActiveStorey] = useState('single'); 
+    const [activeImage, setActiveImage] = useState('first_s1'); 
 
     const handleStoreySwitch = (storey) => {
         setActiveStorey(storey);
-        setActiveImage('first_s1'); // reset active image on section switch
+        setActiveImage('first_s1');
     };
 
     const handleImageClick = (imageClass) => {
@@ -21,7 +21,7 @@ const SingleDouble = () => {
 
     const images = [
         { thumb: stimage, large: storeyimage, className: 'first_s1' },
-        { thumb: stimage, large: gallery2, className: 'second_s2' },
+        { thumb: stimage, large: gallery1, className: 'second_s2' },
         { thumb: stimage, large: gallery2, className: 'third_s3' },
         { thumb: stimage, large: gallery3, className: 'fourth_s4' },
         { thumb: stimage, large: gallery1, className: 'fifth_s5' },

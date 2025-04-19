@@ -10,6 +10,10 @@ import LearnBtn from './components/LearnBtn';
 import Testimonial from './components/Testimonial';
 import Visit from './components/visit';
 import Footer from './components/footer';
+import BannerSlider from './components/BannerSlider';
+import OwlCarousel from 'react-owl-carousel'; 
+import 'owl.carousel/dist/assets/owl.carousel.css'; 
+import 'owl.carousel/dist/assets/owl.theme.default.css'; 
 
 
 function App() {
@@ -17,6 +21,7 @@ function App() {
     <div className="App">
 
       <Nav />
+      <BannerSlider />
       <Autoscroller />
       <Construction />
       <LearnBtn link="#" text ="Learn More" />
