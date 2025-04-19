@@ -4,6 +4,7 @@ import Autoscroller from './components/Autoscroller';
 import Construction from './components/constructions';
 import OurServices from './components/ourServices';
 import Storey from './components/StoreySection';
+import SingleDouble from './components/SingleDouble';
 import React from 'react';
 import LearnBtn from './components/LearnBtn';
 import Testimonial from './components/Testimonial';
@@ -22,6 +23,7 @@ function App() {
       <OurServices />
       <LearnBtn link="#" text ="All Services"/>
       <Storey />
+      <SingleDouble />
       <Testimonial/>
       <Visit/>
       <Footer/>
