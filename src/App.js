@@ -1,5 +1,6 @@
 import './App.css';
 import Nav from './components/Nav';
+import BannerSlider from './components/BannerSlider';
 import Autoscroller from './components/Autoscroller';
 import Construction from './components/constructions';
 import OurServices from './components/ourServices';
@@ -10,10 +11,7 @@ import LearnBtn from './components/LearnBtn';
 import Testimonial from './components/Testimonial';
 import Visit from './components/visit';
 import Footer from './components/footer';
-import BannerSlider from './components/BannerSlider';
-import OwlCarousel from 'react-owl-carousel'; 
-import 'owl.carousel/dist/assets/owl.carousel.css'; 
-import 'owl.carousel/dist/assets/owl.theme.default.css'; 
+
 
 
 function App() {

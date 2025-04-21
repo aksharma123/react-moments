@@ -1,86 +1,98 @@
-import React from 'react';
-import OwlCarousel from 'react-owl-carousel'; 
-import 'owl.carousel/dist/assets/owl.carousel.css'; 
-import 'owl.carousel/dist/assets/owl.theme.default.css'; 
-import './BannerSlider.css'; 
-import lineImage from '../assets/Line 8.png'; 
-
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { FaArrowDown } from "react-icons/fa6";
+import "./BannerSlider.css";
+import line from "../assets/Line 8.png";
 
 const BannerSlider = () => {
-  const options = {
-    items: 1,
-    loop: true,
-    autoplay: true,
-    autoplayTimeout: 3000,
-    dots: true,
-    nav: false,
-  };
-
   return (
     <section className="banner_main">
-      <OwlCarousel className="owl-theme" {...options}>
-        {/* Slide 1 */}
-        <div className="slide">
-          <div className="container">
-            <div className="slide_contant">
-              <h2>RESIDENCE</h2>
-              <p>
-                Introduction <span>Quickly and</span> easily generate Lorem Ipsum placeholder text.
-                Select <span>the number</span> of characters
-              </p>
-              {/* <a href="#next-section" className="bannerDownIcon">
-                <i className="fa-solid fa-arrow-down"></i>
-              </a> */}
-            </div>
-          </div>
-          <div className="slide_images">
-            <div className="image1"></div>
-          </div>
-        </div>
+      <div className="banner_slider">
+        <Swiper
+          modules={[Pagination, Autoplay]}
+          pagination={{ clickable: true }}
+          loop={true}
+          autoplay={{ delay: 1000, disableOnInteraction: false }}
+          speed={1100}
+        >
+          {/* Slide 1 */}
+          <div className="swiper_pagination">
+            <SwiperSlide>
+              <div className="slide">
+                <div className="container">
+                  <div className="slide_content">
+                    <h2>RESIDENCE</h2>
+                    <p>
+                      Introduction <span>Quickly and</span> easily generate
+                      Lorem Ipsum placeholder text. Select{" "}
+                      <span>the number</span> of characters
+                    </p>
+                    <a href="#next-section" className="bannerDownIcon">
+                      <FaArrowDown />
+                    </a>
+                  </div>
+                </div>
+                <div className="slide_images">
+                  <div className="image1"></div>
+                </div>
+              </div>
+            </SwiperSlide>
 
-        {/* Slide 2 */}
-        <div className="slide slide_two">
-          <div className="container">
-            <div className="slide_contant">
-              <h2>RESIDENCE</h2>
-              <p>
-                Introduction <span>Quickly and</span> easily generate Lorem Ipsum placeholder text.
-                Select <span>the number</span> of characters
-              </p>
-              {/* <a href="#next-section" className="bannerDownIcon">
-                <i className="fa-solid fa-arrow-down"></i>
-              </a> */}
-            </div>
-          </div>
-          <div className="slide_images">
-            <div className="image1 bannerImg2"></div>
-          </div>
-        </div>
+            {/* Slide 2 */}
+            <SwiperSlide>
+              <div className="slide slide_two">
+                <div className="container">
+                  <div className="slide_content">
+                    <h2>RESIDENCE</h2>
+                    <p>
+                      Introduction <span>Quickly and</span> easily generate
+                      Lorem Ipsum placeholder text. Select{" "}
+                      <span>the number</span> of characters
+                    </p>
+                    <a href="#next-section" className="bannerDownIcon">
+                      <FaArrowDown />
+                    </a>
+                  </div>
+                </div>
+                <div className="slide_images">
+                  <div className="image1 bannerImg2"></div>
+                </div>
+              </div>
+            </SwiperSlide>
 
-        {/* Slide 3 */}
-        <div className="slide slide_three">
-          <div className="container">
-            <div className="slide_contant">
-              <h2>RESIDENCE</h2>
-              <p>
-                Introduction <span>Quickly and</span> easily generate Lorem Ipsum placeholder text.
-                Select <span>the number</span> of characters
-              </p>
-              {/* <a href="#next-section" className="bannerDownIcon">
-                <i className="fa-solid fa-arrow-down"></i>
-              </a> */}
-            </div>
+            {/* Slide 3 */}
+            <SwiperSlide>
+              <div className="slide slide_three">
+                <div className="container">
+                  <div className="slide_content">
+                    <h2>RESIDENCE</h2>
+                    <p>
+                      Introduction <span>Quickly and</span> easily generate
+                      Lorem Ipsum placeholder text. Select{" "}
+                      <span>the number</span> of characters
+                    </p>
+                    <a href="#next-section" className="bannerDownIcon">
+                      <FaArrowDown />
+                    </a>
+                  </div>
+                </div>
+                <div className="slide_images">
+                  <div className="image1 bannerImg3"></div>
+                </div>
+              </div>
+            </SwiperSlide>
           </div>
-          <div className="slide_images">
-            <div className="image1 bannerImg3"></div>
-          </div>
-        </div>
-      </OwlCarousel>
+        </Swiper>
+      </div>
 
-      {/* Static Right Side */}
+      {/* Right Side Schedule Call */}
       <div className="right_image">
         <div className="image2">
-          <img src={lineImage} alt="Line" />
+          <img src={line} alt="Decorative Line" />
           <div className="schedule_call">
             <a href="contact.html">Schedule a call</a>
           </div>
